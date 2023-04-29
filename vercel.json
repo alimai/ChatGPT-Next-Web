@@ -4,31 +4,31 @@
     },
     "redirects": [
         {      
-            "source":"/github",
+            "source":"/rdgithub",
             "destination":"https://github.com"
         },
         {      
-            "source":"/github/:path(.*)",
+            "source":"/rdgithub/:path(.*)",
             "destination":"https://github.com/:path*"
         },
         {      
-            "source":"/openai",
+            "source":"/rdopenai",
             "destination":"https://openai.com"
         },
         {      
-            "source":"/openai/:path(.*)",
+            "source":"/rdopenai/:path(.*)",
             "destination":"https://openai.com/:path*"
         },
         {
-          "source": "/api/:path(.*)",
+          "source": "/rdapi/:path(.*)",
           "destination": "https://api.openai.com/:path*"
         },
         {
-          "source": "/platform/:path(.*)",
+          "source": "/rdplatform/:path(.*)",
           "destination": "https://platform.openai.com/:path*"
         },
         {
-          "source": "/test/:path(.*)",
+          "source": "/rdtest/:path(.*)",
           "destination": "https://www.jiqigushi.top"
         }
       ]
