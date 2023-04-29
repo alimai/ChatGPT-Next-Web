@@ -1,5 +1,35 @@
 {
     "github": {
         "silent": true
-    }
+    },
+    "redirects": [
+        {      
+            "source":"/github",
+            "destination":"https://github.com"
+        },
+        {      
+            "source":"/github/:path(.*)",
+            "destination":"https://github.com/:path*"
+        },
+        {      
+            "source":"/openai",
+            "destination":"https://openai.com"
+        },
+        {      
+            "source":"/openai/:path(.*)",
+            "destination":"https://openai.com/:path*"
+        },
+        {
+          "source": "/api/:path(.*)",
+          "destination": "https://api.openai.com/:path*"
+        },
+        {
+          "source": "/platform/:path(.*)",
+          "destination": "https://platform.openai.com/:path*"
+        },
+        {
+          "source": "/test/:path(.*)",
+          "destination": "https://www.jiqigushi.top"
+        }
+      ]
 }
