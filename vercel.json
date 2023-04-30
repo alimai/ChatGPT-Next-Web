@@ -46,6 +46,10 @@
             "destination":"https://openai.com"
         },
         {      
+            "source":"/rwchat",
+            "destination":"https://chat.openai.com"
+        },
+        {      
             "source":"/rwopenai/:path(.*)",
             "destination":"https://openai.com/:path*"
         },
@@ -56,6 +60,10 @@
         {
           "source": "/rwplatform/:path(.*)",
           "destination": "https://platform.openai.com/:path*"
+        },
+        {
+          "source": "/rwchat/:path(.*)",
+          "destination": "https://chat.openai.com/:path*"
         },
         {
           "source": "/rwtest/:path(.*)",
