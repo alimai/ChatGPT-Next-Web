@@ -33,14 +33,33 @@
         }
       ],
       "rewrites":[
+        {      
+            "source":"/rwgithub",
+            "destination":"https://github.com"
+        },
+        {      
+            "source":"/rwgithub/:path(.*)",
+            "destination":"https://github.com/:path*"
+        },
+        {      
+            "source":"/rwopenai",
+            "destination":"https://openai.com"
+        },
+        {      
+            "source":"/rwopenai/:path(.*)",
+            "destination":"https://openai.com/:path*"
+        },
         {
           "source": "/rwapi/:path(.*)",
           "destination": "https://api.openai.com/:path*"
         },
         {
+          "source": "/rwplatform/:path(.*)",
+          "destination": "https://platform.openai.com/:path*"
+        },
+        {
           "source": "/rwtest/:path(.*)",
           "destination": "https://www.jiqigushi.top"
         }
-
       ]
 }
