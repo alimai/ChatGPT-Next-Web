@@ -31,5 +31,16 @@
           "source": "/rdtest/:path(.*)",
           "destination": "https://www.jiqigushi.top"
         }
+      ],
+      "rewrites":[
+        {
+          "source": "/rwapi/:path(.*)",
+          "destination": "https://api.openai.com/:path*"
+        },
+        {
+          "source": "/rwtest/:path(.*)",
+          "destination": "https://www.jiqigushi.top"
+        }
+
       ]
 }
