@@ -4,6 +4,38 @@
     },
     "redirects": [
         {      
+            "source":"/rdgoogleaccounts",
+            "destination":"https://accounts.google.com"
+        },
+        {      
+            "source":"/rdgoogleaccounts/:path(.*)",
+            "destination":"https://accounts.google.com/:path*"
+        },
+        {      
+            "source":"/rdbard",
+            "destination":"https://bard.google.com"
+        },
+        {      
+            "source":"/rdbard/:path(.*)",
+            "destination":"https://bard.google.com/:path*"
+        },
+        {      
+            "source":"/rdgoogle",
+            "destination":"https://google.com"
+        },
+        {      
+            "source":"/rdgoogle/:path(.*)",
+            "destination":"https://google.com/:path*"
+        },
+        {      
+            "source":"/rdbing",
+            "destination":"https://bing.com"
+        },
+        {      
+            "source":"/rdbing/:path(.*)",
+            "destination":"https://bing.com/:path*"
+        },
+        {      
             "source":"/rdgithub",
             "destination":"https://github.com"
         },
@@ -33,6 +65,38 @@
         }
       ],
       "rewrites":[
+        {      
+            "source":"/rwgoogleaccounts",
+            "destination":"https://accounts.google.com"
+        },
+        {      
+            "source":"/rwgoogleaccounts/:path(.*)",
+            "destination":"https://accounts.google.com/:path*"
+        },
+        {      
+            "source":"/rwbard",
+            "destination":"https://bard.google.com"
+        },
+        {      
+            "source":"/rwbard/:path(.*)",
+            "destination":"https://bard.google.com/:path*"
+        },
+        {      
+            "source":"/rwgoogle",
+            "destination":"https://google.com"
+        },
+        {      
+            "source":"/rwgoogle/:path(.*)",
+            "destination":"https://google.com/:path*"
+        },
+        {      
+            "source":"/rwbing",
+            "destination":"https://bing.com"
+        },
+        {      
+            "source":"/rwbing/:path(.*)",
+            "destination":"https://bing.com/:path*"
+        },
         {      
             "source":"/rwgithub",
             "destination":"https://github.com"
